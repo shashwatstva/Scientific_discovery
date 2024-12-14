@@ -1,0 +1,24 @@
+Project 11: Scientific Discovery
+
+Files description:
+1. datav2.xlsx: Data used in the project.
+2. LDA.py: script executing LDA.
+3. hdp_arima.py : Script executing HDP model and Trend Forecasting  using ARIMA model.
+
+Run the files in the above order.
+
+
+Libraries used:
+1. Pandas - for data manipulation and handling.
+2. re (Regular Expressions) - for text preprocessing, such as removing punctuations and numbers.
+3. LatentDirichletAllocation (from scikit-learn) - for topic modeling using LDA (Latent Dirichlet Allocation).
+4. ARIMA (from statsmodels) - for time series forecasting.
+5. HdpModel (from gensim) - for Hierarchical Dirichlet Process (HDP) modeling.
+6. ENGLISH_STOP_WORDS (from sklearn.feature_extraction.text) - for stopword removal.
+7. CountVectorizer (from sklearn.feature_extraction.text) - for converting text into a document-term matrix.
+8. TfidfTransformer (from sklearn.feature_extraction.text) - for applying TF-IDF transformation on the document-term matrix.
+9. scipy.cluster.hierarchy - for hierarchical clustering and creating dendrogram visualizations.
+10. scipy.spatial.distance - for computing distances (e.g., cosine distance).
+11. plotly.figure_factory - for creating interactive visualizations (e.g., dendrograms).
+12. NumPy - for numerical operations like array handling and mathematical functions.
+13. Matplotlib - for plotting static visualizations (e.g., time series plots).
